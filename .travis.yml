@@ -1,9 +1,10 @@
 language: ruby
 rvm:
-- 2.1.5
+- 2.3.4
 install:
   - gem install bundler
 script: ./go ci_build
+dist: trusty
 # safelist
 branches:
   only:
